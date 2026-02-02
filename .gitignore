@@ -1,0 +1,18 @@
+# Virtual environment
+face_env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database files
+database/attendance.db
+
+# Face encodings
+encodings/
+
+# OS files
+.DS_Store
+Thumbs.db
