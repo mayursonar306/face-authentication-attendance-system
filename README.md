@@ -31,20 +31,35 @@ The system allows employee face registration, real-time identification, and auto
 ## 📂 Project Structure
 
 Face-Authentication-Attendance-System/
+
 │
+
 ├── app.py # Streamlit dashboard (UI)
+
 ├── register_face.py # Face registration using webcam
+
 ├── recognize_face.py # Face recognition & attendance logic
+
 ├── database.py # SQLite database operations
+
 ├── utils.py # Encoding save/load utilities
+
 │
+
 ├── database/
+
 │ └── attendance.db # SQLite DB (generated at runtime)
+
 │
+
 ├── encodings/ # Stored face encodings (generated)
+
 │
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 
